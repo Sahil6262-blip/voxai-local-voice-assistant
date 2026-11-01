@@ -1,0 +1,11 @@
+id,check,browser_version,date,pass_fail_unverified,notes
+V01,Real microphone capture and single submission,,,unverified,
+V02,Cancel listening prevents submission,,,unverified,
+V03,Actual browser permission denial and recovery,,,unverified,
+V04,Actual silence no-speech or watchdog fallback,,,unverified,
+V05,Audible automatic speech and stop,,,unverified,
+V06,Replay without overlapping audio,,,unverified,
+V07,Selected voice and rate audibly change playback,,,unverified,
+V08,Starting mic cancels audible playback,,,unverified,
+V09,Typed chat with internet physically disconnected,,,unverified,
+V10,Another actual browser without recognition,,,unverified,

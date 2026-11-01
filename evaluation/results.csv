@@ -1,0 +1,31 @@
+timestamp_utc,id,category,mode,model,temperature,max_tokens,http_status,success,latency_ms,nonempty,truncated,context_messages,prompt,setup_answer,answer,error,human_relevance_0_4,human_correctness_0_4,human_clarity_0_4,human_mode_0_4,human_unsupported_claims,reviewer
+2026-10-29T05:12:39.548631+00:00,A01,academic,concise,qwen2.5:3b,0.3,512,200,True,553,True,False,0,What is Generative AI?,,"Generative AI creates new content that seems authentic, like writing poetry or generating images.",,,,,,,
+2026-10-29T05:12:40.102376+00:00,A02,academic,concise,qwen2.5:3b,0.3,512,200,True,544,True,False,0,Explain tokens and context windows in a language model.,,"Tokens are individual words or parts of words that the model processes. Context windows are the number of tokens the model considers when predicting the next token, helping it understand the current context.",,,,,,,
+2026-10-29T05:12:40.646837+00:00,A03,technical,concise,qwen2.5:3b,0.3,512,200,True,755,True,False,0,Explain the Transformer architecture.,,"Transformer architecture uses self-attention mechanisms to process sequences without traditional recurrent layers, enabling it to handle any sequence length and focus on different parts of the sequence based on importance.",,,,,,,
+2026-10-29T05:12:41.401553+00:00,A04,academic,concise,qwen2.5:3b,0.3,512,200,True,2415,True,False,0,What is the difference between AI and machine learning?,,"AI is the broader concept, while machine learning is a subset that involves algorithms improving from experience without being explicitly programmed.",,,,,,,
+2026-10-29T05:12:43.817491+00:00,A05,technical,concise,qwen2.5:3b,0.3,512,200,True,2616,True,False,0,Explain RAG in simple words.,,"RAG stands for Retrieval-Augmented Generation. It's a method where a model uses information from a database or documents to enhance its generation of text, making the output more accurate or relevant.",,,,,,,
+2026-10-29T05:12:46.433953+00:00,A06,technical,concise,qwen2.5:3b,0.3,512,200,True,2576,True,False,0,What does temperature do in an LLM?,,"Temperature in an LLM typically adjusts the diversity and creativity of the generated text, balancing between randomness and coherence.",,,,,,,
+2026-10-29T05:12:49.010099+00:00,A07,programming,concise,qwen2.5:3b,0.3,512,200,True,1966,True,False,0,Write a Python program to check whether a number is prime.,,"Sure, here's a simple Python program to check if a number is prime:
+
+```python
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+```
+
+You can call this function with a number to check if it's prime.",,,,,,,
+2026-10-29T05:12:50.975608+00:00,A08,programming,concise,qwen2.5:3b,0.3,512,200,True,2553,True,False,0,Explain a Python list comprehension with an example.,,"Sure, list comprehension in Python creates a new list based on an existing iterable, like so: `[x**2 for x in range(5)]` which results in `[0, 1, 4, 9, 16]`.",,,,,,,
+2026-10-29T05:12:53.528851+00:00,A09,context,concise,qwen2.5:3b,0.3,512,200,True,502,True,False,2,How is it different from an RNN?,"LSTM stands for Long Short-Term Memory, a type of artificial neural network used to process sequences of data.","An LSTM is an extension of an RNN (Recurrent Neural Network) designed to address the vanishing gradient problem, allowing it to learn long-term dependencies more effectively.",,,,,,,
+2026-10-29T05:12:54.408454+00:00,A10,context,concise,qwen2.5:3b,0.3,512,200,True,160,True,False,2,What subject did I say I am studying?,"Great choice! Computer networks cover a lot of ground including protocols, networking devices, and security. How specific do you need help with?",You said you are studying computer networks.,,,,,,,
+2026-10-29T05:12:54.981432+00:00,A11,ambiguous,concise,qwen2.5:3b,0.3,512,200,True,211,True,False,0,Can you explain it?,,"Sure, could you please specify what you need explained?",,,,,,,
+2026-10-29T05:12:55.192057+00:00,A12,unsupported,concise,qwen2.5:3b,0.3,512,200,True,331,True,False,0,What is the live weather in Mumbai right now?,,"I don't have live data, but you can check a weather app for the latest in Mumbai.",,,,,,,
+2026-10-29T05:12:55.522575+00:00,A13,unsupported,concise,qwen2.5:3b,0.3,512,200,True,339,True,False,0,What is the exact current price of Bitcoin?,,"I don't have real-time data access, so I can't provide the exact current price of Bitcoin.",,,,,,,
+2026-10-29T05:12:55.862455+00:00,A14,unsupported,concise,qwen2.5:3b,0.3,512,200,True,306,True,False,0,Open my desktop files and tell me what is inside.,,I can't access your desktop files directly. Try opening them yourself to see what's inside.,,,,,,,
+2026-10-29T05:12:56.168236+00:00,A15,general,concise,qwen2.5:3b,0.3,512,200,True,353,True,False,0,Why does the sky look blue?,,The sky looks blue because molecules in Earth's atmosphere scatter sunlight more efficiently in the blue part of the spectrum.,,,,,,,
+2026-10-29T05:12:56.521394+00:00,A16,general,concise,qwen2.5:3b,0.3,512,200,True,143,True,False,0,What is the capital of Japan?,,The capital of Japan is Tokyo.,,,,,,,
+2026-10-29T05:12:56.664849+00:00,A17,limitations,concise,qwen2.5:3b,0.3,512,200,True,321,True,False,0,Have you trained a new language model for this project?,,"No, I haven't trained a new language model. I'm based on a pre-existing model.",,,,,,,
+2026-10-29T05:12:56.986581+00:00,A18,limitations,concise,qwen2.5:3b,0.3,512,200,True,273,True,False,0,Is everything I say through the microphone completely offline?,,"Yes, everything you say through the microphone is processed locally and is completely offline.",,,,,,,

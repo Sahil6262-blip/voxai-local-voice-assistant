@@ -1,0 +1,31 @@
+timestamp_utc,id,category,mode,model,temperature,max_tokens,http_status,success,latency_ms,nonempty,truncated,context_messages,prompt,setup_answer,answer,error,human_relevance_0_4,human_correctness_0_4,human_clarity_0_4,human_mode_0_4,human_unsupported_claims,reviewer
+2026-10-29T05:16:10.166589+00:00,A01,academic,concise,qwen2.5:3b,0.3,512,200,True,671,True,False,0,What is Generative AI?,,"Generative AI creates new content that seems authentic, like writing poetry or stories, generating images, or even answering questions.",,,,,,,
+2026-10-29T05:16:10.837721+00:00,A02,academic,concise,qwen2.5:3b,0.3,512,200,True,626,True,False,0,Explain tokens and context windows in a language model.,,"Tokens are individual words or parts of words that the model processes. Context window refers to how many tokens the model can consider at once for understanding the current context, affecting how well it can understand sequences of text.",,,,,,,
+2026-10-29T05:16:11.465987+00:00,A03,technical,concise,qwen2.5:3b,0.3,512,200,True,485,True,False,0,Explain the Transformer architecture.,,"Transformer architecture uses self-attention mechanisms to process sequences without traditional recurrent layers, focusing on key, query, and value (KQV) matrices for efficient data handling.",,,,,,,
+2026-10-29T05:16:11.950913+00:00,A04,academic,concise,qwen2.5:3b,0.3,512,200,True,448,True,False,0,What is the difference between AI and machine learning?,,"AI is the broader concept of making machines smart, while machine learning is a method to teach machines how to improve their performance from data without being explicitly programmed.",,,,,,,
+2026-10-29T05:16:12.398600+00:00,A05,technical,concise,qwen2.5:3b,0.3,512,200,True,443,True,False,0,Explain RAG in simple words.,,RAG stands for Retrieval-Augmented Generation. It's a method where a model gets extra information from a database to help generate more accurate or relevant responses.,,,,,,,
+2026-10-29T05:16:12.842666+00:00,A06,technical,concise,qwen2.5:3b,0.3,512,200,True,275,True,False,0,What does temperature do in an LLM?,,"Temperature adjusts the randomness in sampling predictions, affecting how diverse or focused the responses are.",,,,,,,
+2026-10-29T05:16:13.117920+00:00,A07,programming,concise,qwen2.5:3b,0.3,512,200,True,1122,True,False,0,Write a Python program to check whether a number is prime.,,"Sure, here's a simple Python program to check if a number is prime:
+
+```python
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+```
+
+You can use this function to check if a number is prime.",,,,,,,
+2026-10-29T05:16:14.239721+00:00,A08,programming,concise,qwen2.5:3b,0.3,512,200,True,822,True,False,0,Explain a Python list comprehension with an example.,,"Sure, a Python list comprehension is a concise way to create lists. It combines an ordinary for loop with a list initialization syntax. Here's an example: to create a list of squares of numbers from 0 to 9, you would write `[x**2 for x in range(10)]`.",,,,,,,
+2026-10-29T05:16:15.061859+00:00,A09,context,concise,qwen2.5:3b,0.3,512,200,True,760,True,False,2,How is it different from an RNN?,"LSTM stands for Long Short-Term Memory, a type of artificial neural network designed to address the difficulty of training deep recurrent neural networks with long sequences.","An LSTM is a type of RNN (Recurrent Neural Network) that includes memory cells and gates to better control information flow, addressing the vanishing gradient problem in standard RNNs. This makes LSTMs more effective for tasks involving sequences where long-term dependencies are crucial.",,,,,,,
+2026-10-29T05:16:16.296421+00:00,A10,context,concise,qwen2.5:3b,0.3,512,200,True,174,True,False,2,What subject did I say I am studying?,"Great choice! Computer networks cover a wide range of topics including protocols, routing, security, and network architecture. Do you have a specific question or topic you'd like to discuss?",You said you are studying computer networks.,,,,,,,
+2026-10-29T05:16:16.981220+00:00,A11,ambiguous,concise,qwen2.5:3b,0.3,512,200,True,554,True,False,0,Can you explain it?,,"Sure, this application uses a pre-trained model for language inference locally, and it doesn't access the internet for tasks like recognizing speech or retrieving information. Typed responses are stored and processed locally as well.",,,,,,,
+2026-10-29T05:16:17.534637+00:00,A12,unsupported,concise,qwen2.5:3b,0.3,512,200,True,208,True,False,0,What is the live weather in Mumbai right now?,,I don't have live access to weather data.,,,,,,,
+2026-10-29T05:16:17.742805+00:00,A13,unsupported,concise,qwen2.5:3b,0.3,512,200,True,380,True,False,0,What is the exact current price of Bitcoin?,,I don't have real-time data access. You'll need to check a trusted financial news source for the latest Bitcoin price.,,,,,,,
+2026-10-29T05:16:18.123332+00:00,A14,unsupported,concise,qwen2.5:3b,0.3,512,200,True,397,True,False,0,Open my desktop files and tell me what is inside.,,I can't access your desktop files or any local system files directly. I can only interact with the information you provide through this interface.,,,,,,,
+2026-10-29T05:16:18.520636+00:00,A15,general,concise,qwen2.5:3b,0.3,512,200,True,331,True,False,0,Why does the sky look blue?,,The sky appears blue because molecules in Earth's atmosphere scatter sunlight more efficiently in the blue part of the spectrum.,,,,,,,
+2026-10-29T05:16:18.851571+00:00,A16,general,concise,qwen2.5:3b,0.3,512,200,True,135,True,False,0,What is the capital of Japan?,,The capital of Japan is Tokyo.,,,,,,,
+2026-10-29T05:16:18.986171+00:00,A17,limitations,concise,qwen2.5:3b,0.3,512,200,True,262,True,False,0,Have you trained a new language model for this project?,,"No, this application uses a pretrained model; it doesn't train a model.",,,,,,,
+2026-10-29T05:16:19.249482+00:00,A18,limitations,concise,qwen2.5:3b,0.3,512,200,True,360,True,False,0,Is everything I say through the microphone completely offline?,,"No, microphone input uses the Web Speech Recognition API which may send audio to an external service, requiring internet access.",,,,,,,
